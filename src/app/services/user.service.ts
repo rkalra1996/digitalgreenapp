@@ -1670,6 +1670,70 @@ export class UserService {
       ],
       sessiontoken: ""
     },
+    {
+      username: "7903261648",
+      password: "7903261648",
+      role: "mrp",
+      topics: ["जल संचयन", "फसल की खेती", "कृषि नीतियां"],
+      questions: [
+        {
+          topic_id: "1",
+          topic_name: "प्रक्रिया में क्या सुधार करने की आवश्यकता है?",
+          isPlayed: false,
+          status: false
+        },
+        {
+          topic_id: "2",
+          topic_name: "किसानों द्वारा सामना किए गए शीर्ष चुनौतियां क्या हैं?",
+          isPlayed: false,
+          status: false
+        },
+        {
+          topic_id: "3",
+          topic_name: "वीआरपी के सामने जमीनी स्तर की चुनौतियां क्या हैं?",
+          isPlayed: false,
+          status: false
+        }
+      ],
+      sessiontoken: ""
+    },
+    {
+      username: "9939400724",
+      password: "9939400724",
+      role: "block_officer",
+      topics: ["कीटनाशक नियंत्रण", "कृषि नीतियां", "फसल कटाई", "दूध उत्पादन"],
+      questions: [
+        {
+          topic_id: "1",
+          isPlayed: false,
+          topic_title: 'कृषि',
+          topic_name: "किसानों को किन शीर्ष चुनौतियों का सामना करना पड़ रहा है?",
+          status: false
+        },
+        {
+          topic_id: "2",
+          isPlayed: false,
+          topic_title: 'कृषि',
+          topic_name: "किस प्रकार के समाधान आपकी सहायता कर सकते हैं?",
+          status: false
+        },
+        {
+          topic_id: "3",
+          isPlayed: false,
+          topic_title: 'स्वास्थ्य',
+          topic_name: "किसानों को किन शीर्ष स्वास्थ्य चुनौतियों का सामना करना पड़ रहा है?",
+          status: false
+        },
+        {
+          topic_id: "4",
+          isPlayed: false,
+          topic_title: 'स्वास्थ्य',
+          topic_name: "किस प्रकार के समाधान आपकी सहायता कर सकते हैं?",
+          status: false
+        }
+      ],
+      sessiontoken: ""
+    },
   ];
 
   users: any;
